@@ -34,7 +34,7 @@ const jwtSecret = 'asdasdasdasd';
 // ------------------------------------------ DB
 const dbConnect = async () => {
   try {
-    await mongoose.connect('mongodb+srv://umer:123@cluster0.nszpwqv.mongodb.net/Bookings?retryWrites=true&w=majority');
+    await mongoose.connect('putyoursbro');
     app.listen(4000, () => console.log("Server is running!"));
   } catch (error) {
     console.log(error);
