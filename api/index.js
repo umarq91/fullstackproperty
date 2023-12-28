@@ -26,7 +26,6 @@ app.use(
 );
 
 const jwt = require('jsonwebtoken');
-const { log } = require('console');
 
 const bcryptSalt = bcrypt.genSaltSync(10);
 const jwtSecret = 'asdasdasdasd';
