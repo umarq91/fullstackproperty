@@ -12,7 +12,7 @@ import PlacesPage from './pages/PlacesPage';
 import PlacesFormPage from './pages/PlacesFormPage';
 import PlaceSinglePage from './pages/PlaceSinglePage';
 import NotFound from './pages/404Page';
-axios.defaults.baseURL= "http://localhost:4000"
+axios.defaults.baseURL= "http://localhost:4000" // replace with Backend 
 axios.defaults.withCredentials= true
 
 
